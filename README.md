@@ -30,7 +30,12 @@ pip install pyrogram
 
 <h1>Configuration:</h1>
 
-<h3>1. Bot Token:</h3>
+<h3>
+APP_ID = ***
+BOT_TOKEN = "***"
+TRACK_CHANNEL = '***'
+OWNER_ID = "***"
+</h3>
 
 Obtain your Telegram bot token from BotFather (https://m.youtube.com/watch?v=UQrcOj63S2o).
 Store the token securely in a .env file at the project root:
