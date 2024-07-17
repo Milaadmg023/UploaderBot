@@ -1,4 +1,4 @@
-#Telegram Uploader Bot
+<h1>Telegram Uploader Bot</h1>
 
 This project implements a Telegram bot built using the Pyrogram library. Its primary function is to facilitate file sharing within Telegram chats by generating links that users can share directly.
 
