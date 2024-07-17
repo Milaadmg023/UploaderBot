@@ -8,7 +8,7 @@ File Linking: Uploads files received from users to a chosen storage provider (e.
 Accessibility: Simplifies file sharing for users who prefer links over in-chat media.
 <br>
 
-#Installation:
+#<b>Installation:<b/>
 Prerequisites:
 Python 3.6 or later
 pip (package installer)
