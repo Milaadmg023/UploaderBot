@@ -19,28 +19,28 @@ git clone https://github.com/Milaadmg023/UploaderBot
 cd telegram-file-linking-bot
 ```
 
-Install dependencies:
+<h1>Install dependencies:</h1>
 ```sh
 pip install pyrogram
 # Install additional dependencies for your chosen storage provider (if needed)
 ```
 
-##Configuration:
+<h1>Configuration:</h1>
 
-#1. Bot Token:
+<h3>1. Bot Token:</h3>
 
 Obtain your Telegram bot token from BotFather (https://m.youtube.com/watch?v=UQrcOj63S2o).
 Store the token securely in a .env file at the project root:
 
 BOT_TOKEN=your_bot_token
 <br>
-##Running the Bot:
+<h1>Running the Bot:</h1>
 
-#1. Start the Bot:
+<h3>1. Start the Bot:</h3>
 ```sh
 python bot.py
 ```
-#2. Invite the Bot to Your Telegram Chat:
+<h3>2. Invite the Bot to Your Telegram Chat:</h3>
 
 Open Telegram and search for your bot using its username.
 Add the bot to your desired Telegram chat.
