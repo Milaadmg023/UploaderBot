@@ -6,10 +6,9 @@ Features:
 
 File Linking: Uploads files received from users to a chosen storage provider (e.g., cloud storage platform) and generates a shareable link.
 Accessibility: Simplifies file sharing for users who prefer links over in-chat media.
-
+<br>
 
 #Installation:
-
 Prerequisites:
 Python 3.6 or later
 pip (package installer)
@@ -25,34 +24,25 @@ pip install pyrogram
 # Install additional dependencies for your chosen storage provider (if needed)
 ```
 
-Configuration:
+##Configuration:
 
-1. Bot Token:
+#1. Bot Token:
 
 Obtain your Telegram bot token from BotFather (https://m.youtube.com/watch?v=UQrcOj63S2o).
-
 Store the token securely in a .env file at the project root:
 
 BOT_TOKEN=your_bot_token
-2. Storage Provider (Optional):
+<br>
+##Running the Bot:
 
-If you prefer using an external storage provider for file uploads (e.g., Google Drive, Dropbox), configure the necessary settings in a separate configuration file (e.g., config.py).
-Refer to the documentation of your chosen storage provider's API for specific configuration instructions.
-3. Link Expiration (Optional):
-
-If you want links to expire after a certain period of inactivity, define a default expiration time (in seconds) within the bot code. This can be adjusted based on your requirements.
-Running the Bot:
-
-1. Start the Bot:
-
-Bash
+#1. Start the Bot:
+```sh
 python bot.py
-بااحتیاط از کد استفاده کنید.
-
-2. Invite the Bot to Your Telegram Group or Chat:
+```
+#2. Invite the Bot to Your Telegram Chat:
 
 Open Telegram and search for your bot using its username.
-Add the bot to your desired Telegram group or chat.
+Add the bot to your desired Telegram chat.
 Using the Bot:
 
 Send files directly to the bot in your Telegram chat.
