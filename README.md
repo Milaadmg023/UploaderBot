@@ -20,10 +20,13 @@ cd telegram-file-linking-bot
 ```
 
 <h1>Install dependencies:</h1>
+
 ```sh
 pip install pyrogram
-# Install additional dependencies for your chosen storage provider (if needed)
 ```
+
+<h3>Install additional dependencies for your chosen storage provider (if needed)</h3>
+
 
 <h1>Configuration:</h1>
 
@@ -37,9 +40,11 @@ BOT_TOKEN=your_bot_token
 <h1>Running the Bot:</h1>
 
 <h3>1. Start the Bot:</h3>
+
 ```sh
 python bot.py
 ```
+
 <h3>2. Invite the Bot to Your Telegram Chat:</h3>
 
 Open Telegram and search for your bot using its username.
