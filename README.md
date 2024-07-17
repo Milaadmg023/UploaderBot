@@ -14,15 +14,16 @@ Prerequisites:
 Python 3.6 or later
 pip (package installer)
 Clone this repository:
-Bash
-git clone https://github.com/your-username/telegram-file-linking-bot.git
+```sh
+git clone https://github.com/Milaadmg023/UploaderBot
 cd telegram-file-linking-bot
+```
 
 Install dependencies:
-Bash
+```sh
 pip install pyrogram
 # Install additional dependencies for your chosen storage provider (if needed)
-بااحتیاط از کد استفاده کنید.
+```
 
 Configuration:
 
